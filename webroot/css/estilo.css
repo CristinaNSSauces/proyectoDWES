@@ -10,6 +10,24 @@
     padding: 0;
 }
 
+html, body{
+    height: 100%; 
+}
+
+footer{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    position: absolute;
+    background-color: rgb(177, 177, 177);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+table{
+    width: 100%;
+}
+
 header{
     font-family: 'Bebas Neue', cursive;
     background-color: #a5f77a;
@@ -73,13 +91,6 @@ li,a{
     list-style: none;
 }
 
-footer{
-    font-family: 'Bebas Neue', cursive;
-    width: 100%;
-    text-align: center;
-    float: left;
-    background-color: rgb(177, 177, 177);
-}
 
 figure{
     float: left;
@@ -87,5 +98,4 @@ figure{
 
 main{
     font-family: 'News Cycle', sans-serif;
-    min-height:calc(100vh - 114px);
 }
